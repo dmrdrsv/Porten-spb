@@ -1,0 +1,492 @@
+.info {
+    background-color: #000;
+    
+    height: 44px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+/* identical to box height */
+
+
+/* gray */
+
+    color: #969696;
+}
+.text-ptsans{
+    font-family: 'PT Sans', sans-serif;
+}
+.text-pd{
+    font-family: 'Playfair Display', serif;
+}
+.log-in{
+    align-items: center;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+.log-in a{
+    margin-left: auto;
+    text-decoration: none;
+    color: #969696;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+}
+.menu{
+    background-color: #0f0f0f;
+    height: 80px;
+}
+.navbar-toggler{
+    background-color: lightgray;
+}
+.navbar-toggler-icon{
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    width: auto;
+}
+.menu_links{
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #969696;
+    margin: 0 10px 0 10px;
+}
+
+.title{
+    background-image: url(images/main_img.png);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-height: 810px;
+}
+.title_content{
+    margin: 160px 0 154px 0;
+
+}
+.title p{
+    margin-top: 80px;
+ 
+}
+.title_content_image{
+    max-width: 100%;
+}
+.season-now{
+    justify-content: flex-end;
+    
+}
+.season-now-left{
+    text-align: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #FFFFFF;
+    padding-top: 93px;
+    padding-bottom: 93px;
+}
+.heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.season-now-left-pic{
+    max-width: 260px;
+    max-height: 405px;
+}
+.season-now-left-pic-img{
+    background-color: #191B1C;
+    flex-basis: 33%;
+    padding: 55px 5px 56px 6px;
+    
+}
+.season-now-left-content{
+    justify-content: space-around;
+}
+.season-now-left-pic-desc{
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.season-now-left-text{
+    flex-direction: column;
+    align-items: center;
+}
+.season-now-left-text .line{
+    margin: 50px 0 50px 0;
+}
+.season-now-right{
+    background-image: url(images/season_img_right.png);
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+.season-now-right-content{
+    position: relative;
+    top: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+.season-now-right-content .line{
+    margin-bottom: 30px;
+}
+.line{
+    border-bottom: 1px solid #fff;
+    width: 120px;
+}
+.season-prev-left{
+    background-image: url(images/season_img_left.png);
+}
+.season-prev-right{
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+.season-prev-right-content{
+    padding: 10% 20% 10% 20%;
+    flex-direction: column;
+    align-items: center;
+}
+.season-prev-right-content .line{
+    margin-bottom: 40px;
+}
+.season-prev-right-content-desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+/* or 21px */
+
+    text-align: center;
+    margin-bottom: 61px;
+
+}
+.arrivals{
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    padding: 120px 0 150px 0;
+}
+.arrivals-text{
+    padding-bottom: 81px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.arrivals-text .line{
+    margin-top: 40px;
+}
+.arrivals-content{
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.season-now-left-pic{
+    flex-basis: 30%;
+}
+.arrivals-content-pic{
+    margin-bottom: 40px;
+    flex-basis: 25%;
+}
+.brands{
+    background-color: #0f0f0f;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 74px;
+}
+.brands-text{
+    text-align: center;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+}
+.brands-text .line{
+    margin: 40px 0 40px 0;
+}
+.brands-content{
+    justify-content: center;
+}
+.brands-content img{
+    padding-right: 30px;
+}
+.footer{
+    background-image: url(images/footer_img.png);
+    background-size: cover;
+    color: #fff;
+    max-height: 400px;
+}
+.footer-about, .footer-categ, .footer-mailing{
+    padding: 40px 30px 50px 0;
+    margin-bottom: auto;
+}
+.footer h1{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.footer p{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+.footer-mailing{
+    flex-direction: column;
+}
+.footer-categ-buttons, .footer-about p,.footer-mailing p{
+    padding-top: 40px;
+}
+.footer-categ-buttons{
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.main-button{
+    color: #fff;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+}
+.footer-button{
+    color: lightgray;
+    background-color: #0f0f0f;
+    padding: 10px 20px 10px 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 20px;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.05em;
+}
+.footer-form{
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    padding: 10px 20px 10px 20px;
+}
+input[type="email"]::-webkit-input-placeholder { color: #fff; }
+
+a:hover, button:hover {
+    animation: link-scale 3s infinite ease-in;
+}
+
+@keyframes link-scale{
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@media (max-width: 1280px) {
+    
+    /**/
+    
+    
+    .navbar-toggler{
+        margin-right: 10%;
+    }
+    
+    /**/
+    .brands-content{
+        justify-content: space-around;
+        flex-flow: row wrap;
+        max-width: 100%;
+    }
+    .footer{
+        max-height: 100%;
+        
+    }
+    .footer-categ-buttons{
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer-mailing form{
+        flex-direction: column;
+    }
+    .footer-form{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 992px) {
+    
+    /**/
+    .menu_icon, .navbar-nav{
+        padding-left: 50px;
+    }
+    .menu_links {
+        background-color: rgba(29, 27, 32, 0.5);
+    }
+    .navbar-toggler{
+        margin-right: 50px;
+    }
+    .season-now-left {
+        display: block;
+        width: 100%;
+    }
+    .season-now-right {
+        display: block;
+        width: 100%;
+        height: 536px;
+    }
+    .season-now-right-content{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .season-prev {
+        display: block;
+    }
+    .season-prev-left{
+        display: none;
+    }
+    .season-prev-right{
+        background-image: url(images/season_img_left.png);
+        display: block;
+        width: 100%;
+    }
+    /**/
+    .brands-content{
+        justify-content: space-around;
+        flex-flow: row wrap;
+        max-width: 100%;
+    }
+    .footer{
+        max-height: 100%;
+        
+    }
+    .footer-categ-buttons{
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer-mailing form{
+        flex-direction: column;
+    }
+    .footer-form{
+        margin-bottom: 10px;
+    } 
+}
+
+@media (max-width: 768px) {
+ 
+    /**/
+    .navbar-toggler{
+        margin-right: 10%;
+    }
+    .season-now-left {
+        display: block;
+        width: 100%;
+    }
+    .season-now-right {
+        display: block;
+        width: 100%;
+        height: 536px;
+    }
+    .season-now-right-content{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .season-prev {
+        display: block;
+    }
+    .season-prev-left{
+        display: none;
+    }
+    .season-prev-right{
+        background-image: url(images/season_img_left.png);
+        display: block;
+        width: 100%;
+    }
+    /**/
+    .brands-content{
+        justify-content: space-around;
+        flex-flow: row wrap;
+        max-width: 100%;
+    }
+    .footer{
+        max-height: 100%;
+    }
+    .footer h1{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .footer p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .footer-categ-buttons{
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer-mailing form{
+        flex-direction: column;
+    }
+    .footer-form{
+        margin-bottom: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .footer-button{
+        padding: 10px;
+    }
+    .footer-about{
+        margin-left: 5%;
+    }
+}
+@media (max-width: 480px){
+    .footer{
+        flex-direction: column;
+    }
+    .footer-about, .footer-categ, .footer-mailing{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10%;
+        margin-left: 0;
+        
+    }
+    .footer-categ-buttons{
+        flex-flow: row wrap;
+    }
+}
